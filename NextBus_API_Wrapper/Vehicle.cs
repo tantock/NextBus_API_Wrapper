@@ -24,5 +24,6 @@ namespace NextBus_API_Wrapper
         bool? Predictable { get { return _Predictable ;} set{ _Predictable  = value; } }
         int? Heading { get { return _Heading ;} set{ _Heading  = value; } }
         double? Speed { get { return _Speed; } set { _Speed = value; } }
+
     }
 }
