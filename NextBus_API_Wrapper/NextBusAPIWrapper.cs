@@ -35,7 +35,7 @@ namespace NextBus_API_Wrapper
 
             }catch(HttpRequestException ex)
             {
-
+                //TODO Catch statement for CommandQuery function
             }
             return xmlDoc;
         }
